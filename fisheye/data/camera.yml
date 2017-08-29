@@ -1,0 +1,13 @@
+%YAML:1.0
+intrinsicMatrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: f
+   data: [ 2.43095337e+002, 0., 3.30109009e+002, 0., 2.42806366e+002,
+       2.14993042e+002, 0., 0., 1. ]
+distortionCoeffs: !!opencv-matrix
+   rows: 4
+   cols: 1
+   dt: f
+   data: [ -4.13708761e-002, 1.32248248e-003, -7.43716769e-003,
+       2.08935863e-003 ]

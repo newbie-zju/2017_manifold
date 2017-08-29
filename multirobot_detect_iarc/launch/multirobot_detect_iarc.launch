@@ -1,0 +1,15 @@
+<launch>
+  <node pkg="multirobot_detect_iarc" name="multirobot_detect_iarc_node" type="multirobot_detect_iarc_node" output="screen">
+  <param name="capture_num" type="int" value="1"/>
+  <param name="save_result_video_flag" type="bool" value="false"/>
+  <param name="show_video_flag" type="bool" value="false"/>
+  <param name="result_video_file_name" type="string" value="/home/ubuntu/2017/src/multirobot_detect_iarc/result/raw.avi"/>
+  <param name="rate" type="double" value="5.0"/>
+  
+  <param name="camera_pitch" type="double" value="-36.0"/>
+  <param name="fu" type="double" value="583.2863527070682"/>
+  <param name="fv" type="double" value="581.8648421883653"/>
+  <param name="listen_h_flag" type="bool" value="false"/>
+  <param name="loc_h" type="double" value="1.7"/>
+  </node>
+</launch>
